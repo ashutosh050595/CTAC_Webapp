@@ -124,7 +124,7 @@ export const generatePDF = (data: ApplicationData, shouldDownload: boolean = tru
   // --- HEADER ---
   doc.setFontSize(14);
   doc.setFont('helvetica', 'bold');
-  centerText("TIKA RAM GIRLS COLLEGE, SONEPAT", 15, 14, 'helvetica', 'bold');
+  centerText("CHHOTU RAM ARYA COLLEGE, SONEPAT", 15, 14, 'helvetica', 'bold');
   centerText("(Affiliated to M.D., University, Rohtak)", 22, 10);
   doc.setFontSize(9);
   doc.text("Website : www.trgc.edu.in", 14, 28);
