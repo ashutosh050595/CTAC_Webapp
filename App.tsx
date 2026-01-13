@@ -14,7 +14,7 @@ const ADMIN_SHEET_URL = "https://docs.google.com/spreadsheets/d/1yA_v8D9zKk-WpZk
 
 // Deadline Configuration
 const DEADLINE_CONFIG = {
-  deadlineDate: '2026-01-05', // January 5, 2026
+  deadlineDate: '2026-02-19', // February 02, 2026
   deadlineTime: '23:59:59', // 11:59 PM
   timezone: 'IST',
   expiredMessage: 'Deadline to submit the application has ended. You cannot submit it now.',
@@ -173,7 +173,7 @@ const DeadlineMessage = () => {
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2 text-transparent bg-clip-text bg-gradient-to-r from-red-200 to-orange-200 drop-shadow-md">
-            Tika Ram Girls College
+           Chhotu Ram Arya College
           </h1>
           <p className="text-xl text-gray-300 font-light tracking-widest uppercase">Sonepat, Haryana</p>
         </div>
@@ -266,7 +266,7 @@ const DeadlineMessage = () => {
           </div>
         </div>
 
-        <p className="text-center text-gray-400 text-sm mt-8">© {new Date().getFullYear()} Tika Ram Girls College. All Rights Reserved.</p>
+        <p className="text-center text-gray-400 text-sm mt-8">© {new Date().getFullYear()}Chhotu Ram Arya College. All Rights Reserved.</p>
       </div>
     </div>
   );
@@ -689,7 +689,7 @@ function App() {
               <div className="h-28 w-28 flex items-center justify-center font-bold text-2xl border-4 border-white/30 rounded-full" style={{display: 'none'}}>TRGC</div>
             </div>
             <h1 className="text-5xl font-extrabold tracking-tight mb-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-white drop-shadow-md">
-              Tika Ram Girls College
+             Chhotu Ram Arya College
             </h1>
             <p className="text-xl text-blue-200 font-light tracking-widest uppercase">Sonepat, Haryana</p>
             <p className="text-sm text-blue-300 mt-2 font-medium bg-blue-900/40 inline-block px-4 py-1 rounded-full border border-blue-500/30">
@@ -874,7 +874,7 @@ function App() {
             </div>
           </div>
           
-          <p className="text-center text-blue-200/60 text-xs mt-8">© 2024 Tika Ram Girls College. All Rights Reserved.</p>
+          <p className="text-center text-blue-200/60 text-xs mt-8">© 2024 Chhotu Ram Arya College. All Rights Reserved.</p>
         </div>
       </div>
     );
@@ -896,7 +896,7 @@ function App() {
                   onError={(e) => {e.currentTarget.style.display='none'}} 
                 />
                 <div>
-                   <h1 className="text-lg md:text-xl font-bold text-blue-900 leading-tight">Tika Ram Girls College</h1>
+                   <h1 className="text-lg md:text-xl font-bold text-blue-900 leading-tight">Chhotu Ram Arya College</h1>
                    <p className="text-xs text-slate-500 font-medium tracking-wide">Sonepat, Haryana</p>
                 </div>
               </div>
