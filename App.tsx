@@ -14,7 +14,7 @@ const ADMIN_SHEET_URL = "https://docs.google.com/spreadsheets/d/1yA_v8D9zKk-WpZk
 
 // Deadline Configuration
 const DEADLINE_CONFIG = {
-  deadlineDate: '2026-02-19', // February 02, 2026
+  deadlineDate: '2026-01-30', // February 02, 2026
   deadlineTime: '23:59:59', // 11:59 PM
   timezone: 'IST',
   expiredMessage: 'Deadline to submit the application has ended. You cannot submit it now.',
@@ -247,7 +247,7 @@ const DeadlineMessage = () => {
                   <h4 className="font-bold text-purple-900 mb-3">Contact Information</h4>
                   <ul className="space-y-2 text-sm text-purple-800">
                     <li>For queries about submitted applications:</li>
-                    <li className="font-medium">Email: admin@ctac.edu.in</li>
+                    <li className="font-medium">Email: admin@CRAC.edu.in</li>
                     <li className="font-medium">Phone: +91-XXX-XXXXXXX</li>
                   </ul>
                 </div>
@@ -575,7 +575,7 @@ function App() {
      // Add 3 random characters to handle collisions at exact same millisecond
      const randomPart = Math.random().toString(36).substring(2, 5).toUpperCase();
      
-     return `CTAC-${year}-${timestampPart}-${randomPart}`;
+     return `CRAC-${year}-${timestampPart}-${randomPart}`;
   };
 
   const handleSubmit = async () => {
@@ -684,9 +684,9 @@ function App() {
           {/* Header Section */}
           <div className="text-center mb-12">
             <div className="inline-block p-4 bg-white/10 backdrop-blur-md rounded-full shadow-2xl mb-6 border border-white/20">
-              <img src="logo.png" alt="CTAC Logo" className="h-28 w-28 object-contain drop-shadow-lg" onError={(e) => {e.currentTarget.style.display='none'}} />
+              <img src="logo.png" alt="CRAC Logo" className="h-28 w-28 object-contain drop-shadow-lg" onError={(e) => {e.currentTarget.style.display='none'}} />
               {/* Fallback if logo fails to load (User needs to add logo.png to public/) */}
-              <div className="h-28 w-28 flex items-center justify-center font-bold text-2xl border-4 border-white/30 rounded-full" style={{display: 'none'}}>CTAC</div>
+              <div className="h-28 w-28 flex items-center justify-center font-bold text-2xl border-4 border-white/30 rounded-full" style={{display: 'none'}}>CRAC</div>
             </div>
             <h1 className="text-5xl font-extrabold tracking-tight mb-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-white drop-shadow-md">
              Chhotu Ram Arya College
@@ -735,8 +735,8 @@ function App() {
                       <div>
                         <h3 className="font-bold text-red-900 text-lg">Application Timeline</h3>
                         <div className="text-red-800 text-sm mt-1 space-y-1">
-                          <p>Start Date: <span className="font-bold">16-12-2025</span></p>
-                          <p>End Date: <span className="font-bold">05-01-2026</span> at <span className="font-bold">11:59 pm</span></p>
+                          <p>Start Date: <span className="font-bold">19-01-2026</span></p>
+                          <p>End Date: <span className="font-bold">30-01-2026</span> at <span className="font-bold">11:59 pm</span></p>
                         </div>
                       </div>
                   </div>
@@ -891,7 +891,7 @@ function App() {
               <div className="flex items-center gap-4">
                 <img 
                   src="logo.png" 
-                  alt="CTAC" 
+                  alt="CRAC" 
                   className="h-12 w-12 object-contain"
                   onError={(e) => {e.currentTarget.style.display='none'}} 
                 />
