@@ -8,7 +8,7 @@ export interface EmailResult {
 /**
  * MANDATORY: YOU MUST REPLACE THIS URL WITH YOUR ACTUAL DEPLOYED WEB APP URL
  */
-const GOOGLE_SCRIPT_URL: string = "https://script.google.com/macros/s/AKfycbxfuRlE9-cwJia0YJEgafbdlHEkdyDFkhW_oehHCnJXmSuqvPisMS2BI4y_J64RjbQ4/exec"; 
+const GOOGLE_SCRIPT_URL: string = "https://script.google.com/macros/s/AKfycbwfVTd5ojnfuwh8OTgZDC6bzvPo6lTP8gTUVnnJ1P6DHhuN4w9162a5ep9QpQAh391G/exec"; 
 
 export const sendApplicationEmail = async (data: ApplicationData, pdfBase64: string): Promise<EmailResult> => {
   if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === "" || GOOGLE_SCRIPT_URL.includes("AKfycbx_YOUR_URL")) {
