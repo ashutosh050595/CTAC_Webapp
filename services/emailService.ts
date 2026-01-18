@@ -31,7 +31,7 @@ export const sendApplicationEmail = async (data: ApplicationData, pdfBase64: str
     const payload = {
       ...data,
       pdfBase64: pdfBase64,
-      fileName: `TRGC_2025_${data.name.replace(/\s+/g, '_')}.pdf`,
+      fileName: `CRAC_2026_${data.name.replace(/\s+/g, '_')}.pdf`,
       submissionTimestamp: new Date().toISOString()
     };
 
