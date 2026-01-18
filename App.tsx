@@ -1325,11 +1325,11 @@ function App() {
                       <div className="flex-1 space-y-4 text-center md:text-left">
                         <div>
                           <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Merchant Name</p>
-                          <p className="text-xl font-bold text-slate-800">TIKA RAM GIRLS COLLEGE</p>
+                          <p className="text-xl font-bold text-slate-800">CHHOTU RAM ARYA COLLEGE</p>
                         </div>
                         <div>
                           <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">UPI ID</p>
-                          <p className="text-lg font-mono bg-slate-100 inline-block px-3 py-1 rounded">9466463838m@pnb</p>
+                          <p className="text-lg font-mono bg-slate-100 inline-block px-3 py-1 rounded">9466704370m@pnb</p>
                         </div>
                       </div>
                     </div>
