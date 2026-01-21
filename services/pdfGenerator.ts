@@ -128,7 +128,7 @@ export const generatePDF = (data: ApplicationData, shouldDownload: boolean = tru
   centerText("(Affiliated to M.D., University, Rohtak)", 22, 10);
   doc.setFontSize(9);
   doc.text("Website : www.cracollegesonepat.org", 14, 28);
-  doc.text("email : trgcrecruitment2025@gmail.com", pageWidth - 14, 28, { align: 'right' });
+  doc.text("email : crarecruitment2026@gmail.com", pageWidth - 14, 28, { align: 'right' });
   doc.setLineWidth(0.5);
   doc.line(10, 30, pageWidth - 10, 30);
   
