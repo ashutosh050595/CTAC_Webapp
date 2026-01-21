@@ -247,7 +247,7 @@ const DeadlineMessage = () => {
                   <h4 className="font-bold text-purple-900 mb-3">Contact Information</h4>
                   <ul className="space-y-2 text-sm text-purple-800">
                     <li>For queries about submitted applications:</li>
-                    <li className="font-medium">Email: admin@CRAC.edu.in</li>
+                    <li className="font-medium">Email: crarecruitment2026@gmail.com</li>
                     <li className="font-medium">Phone: +91-XXX-XXXXXXX</li>
                   </ul>
                 </div>
@@ -387,7 +387,7 @@ function App() {
       'fileAdminSkill': 500 * 1024, // 500 KB
       'fileAcademic': 5 * 1024 * 1024, // 5 MB
       'fileResponsibilities': 2 * 1024 * 1024, // 2 MB
-      'fileAdmin': 2 * 1024 * 1024, // 2 MB
+      'fileAdmin': 4 * 1024 * 1024, // 4 MB
       'fileResearch': 10 * 1024 * 1024, // 10 MB (reduced from 38MB)
       'filePaymentScreenshot': 500 * 1024, // 500 KB
       'fileNOC': 200 * 1024, // 200 KB
@@ -1091,7 +1091,7 @@ function App() {
                       </table>
                     </div>
                     <div className="bg-slate-50 p-4 rounded border mt-6">
-                       <label className="font-semibold text-sm">Upload Supporting Documents (Committees) <span className="text-xs text-gray-500 font-normal">(Max 2MB)</span></label>
+                       <label className="font-semibold text-sm">Upload Supporting Documents (Committees) <span className="text-xs text-gray-500 font-normal">(Max 4MB)</span></label>
                        <input type="file" accept="application/pdf" onChange={e => e.target.files?.[0] && handleFileUpload('fileAdmin', e.target.files[0])} className="block w-full text-sm mt-2" />
                        {errors.fileAdmin && <p className="text-red-500 text-xs mt-1">{errors.fileAdmin}</p>}
                     </div>
