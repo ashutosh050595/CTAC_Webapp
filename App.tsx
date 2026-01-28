@@ -14,7 +14,7 @@ const ADMIN_SHEET_URL = "https://docs.google.com/spreadsheets/d/1yA_v8D9zKk-WpZk
 
 // Deadline Configuration
 const DEADLINE_CONFIG = {
-  deadlineDate: '2026-01-30', // February 02, 2026
+  deadlineDate: '2026-02-18', // February 18, 2026
   deadlineTime: '23:59:59', // 11:59 PM
   timezone: 'IST',
   expiredMessage: 'Deadline to submit the application has ended. You cannot submit it now.',
@@ -735,8 +735,8 @@ function App() {
                       <div>
                         <h3 className="font-bold text-red-900 text-lg">Application Timeline</h3>
                         <div className="text-red-800 text-sm mt-1 space-y-1">
-                          <p>Start Date: <span className="font-bold">19-01-2026</span></p>
-                          <p>End Date: <span className="font-bold">30-01-2026</span> at <span className="font-bold">11:59 pm</span></p>
+                          <p>Start Date: <span className="font-bold">29/01/2026</span></p>
+                          <p>End Date: <span className="font-bold">18/02/2026</span> at <span className="font-bold">11:59 pm</span></p>
                         </div>
                       </div>
                   </div>
