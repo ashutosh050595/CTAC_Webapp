@@ -1403,7 +1403,7 @@ function App() {
                     {data.hasNOC === 'yes' && (
                       <div className="space-y-4 animate-in fade-in slide-in-from-top-4 duration-300">
                          <div className="grid md:grid-cols-2 gap-4">
-                           <Input label="Employer Name" value={data.empName} onChange={e => handleInputChange('empName', e.target.value)} error={errors.empName} />
+                           <Input label="Employee Name" value={data.empName} onChange={e => handleInputChange('empName', e.target.value)} error={errors.empName} />
                            <Input label="Designation" value={data.empDesignation} onChange={e => handleInputChange('empDesignation', e.target.value)} />
                            <Input label="Department" value={data.empDept} onChange={e => handleInputChange('empDept', e.target.value)} />
                            {/* Removed Notice Period field */}
@@ -1422,7 +1422,7 @@ function App() {
                     <SectionHeader title="Declaration" />
                     <p className="text-sm text-gray-600 bg-yellow-50 p-4 rounded border border-yellow-200 leading-relaxed italic">
                       I <strong>{data.name}</strong> {data.parentName ? `${data.parentName.startsWith('D/o') || data.parentName.startsWith('S/o') ? '' : 'D/o S/o W/o'} ${data.parentName}` : 'D/o S/o W/o...'} 
-                      hereby declare that all the entries made by me in this application form are true and correct to the best of my knowledge and I have attached related proof of documents. 
+                        hereby declare that all the entries made by me in this application form are true and correct to the best of my knowledge and I have attached related proof of documents. 
                       If anything is found false or incorrect at any stage, my candidature/appointment is liable to be cancelled.
                     </p>
 
