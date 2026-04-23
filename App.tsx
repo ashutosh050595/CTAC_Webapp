@@ -14,7 +14,7 @@ const ADMIN_SHEET_URL = "https://docs.google.com/spreadsheets/d/1yA_v8D9zKk-WpZk
 
 // Deadline Configuration
 const DEADLINE_CONFIG = {
-  deadlineDate: '2026-02-18', // February 18, 2026
+  deadlineDate: '2026-04-24', // February 18, 2026
   deadlineTime: '23:59:59', // 11:59 PM
   timezone: 'IST',
   expiredMessage: 'Deadline to submit the application has ended. You cannot submit it now.',
